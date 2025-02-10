@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="dj-data-secure",
+    name="data_encrypter",
     version="1.0",
     author="Mr. Bipin Rajesh Tatkare",
     author_email="techbipinrt2526@gmail.com",
     description="A simple data encryption-decryption package for Django models.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/data_encrypter",
+    url="https://github.com/techbipin/data_encrypter.git",
     packages=find_packages(),
     install_requires=[
         "django==5.0",
